@@ -1,7 +1,8 @@
-package com.example.webshop.Webshop.controllers;
+package com.example.itemservice.controllers;
 
-import com.example.webshop.Webshop.models.Item;
-import com.example.webshop.Webshop.repos.ItemRepo;
+
+import com.example.itemservice.models.Item;
+import com.example.itemservice.repos.ItemRepo;
 import org.springframework.hateoas.CollectionModel;
 import org.springframework.hateoas.EntityModel;
 import org.springframework.web.bind.annotation.*;
