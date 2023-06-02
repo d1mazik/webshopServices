@@ -11,6 +11,14 @@ create database item_service_db;
 public class ItemServiceApplication {
 
     public static void main(String[] args) {
+        /*
+        // Load environment variables from .env file
+        Dotenv dotenv = Dotenv.configure().load();
+
+        // Access environment variables
+        String password = dotenv.get("WEBSHOPSERVICES_PW");
+
+         */
         SpringApplication.run(ItemServiceApplication.class, args);
     }
 
